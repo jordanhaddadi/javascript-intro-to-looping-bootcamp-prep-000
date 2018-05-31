@@ -18,5 +18,11 @@ function forLoop(array) {
  }
  
  function doWhileLoop(array) {
-   
+   function maybeTrue() {
+  return "array"
+}
+ 
+do {
+  console.log('doo-bee-doo-bee-doo')
+} while (maybeTrue());
  }
