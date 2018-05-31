@@ -23,6 +23,6 @@ function forLoop(array) {
 }
  
 do {
-  array.pop ('doo-bee-doo-bee-doo')
-} while (maybeTrue());
+  array.pop ();
+} while array.length > 0 $$ maybeTrue());
  }
