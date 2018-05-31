@@ -23,6 +23,6 @@ function forLoop(array) {
 }
  
 do {
-  console.log('doo-bee-doo-bee-doo')
+  array.pop ('doo-bee-doo-bee-doo')
 } while (maybeTrue());
  }
